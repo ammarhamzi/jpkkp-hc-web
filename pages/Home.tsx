@@ -1,7 +1,8 @@
 import React from 'react';
 import Hero from '../components/Hero';
 import SEO from '../components/SEO';
-import { Users, TrendingUp, ShieldCheck } from 'lucide-react';
+import { Link } from 'react-router-dom';
+import { Users, TrendingUp, ShieldCheck, ArrowRight } from 'lucide-react';
 
 const Home: React.FC = () => {
   return (
@@ -62,6 +63,33 @@ const Home: React.FC = () => {
           </div>
         </div>
       </div>
+
+      <section className="py-24 bg-white">
+         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+               <div className="relative">
+                  <div className="absolute top-4 -left-4 w-full h-full bg-stone-100 rounded-2xl z-0"></div>
+                  <img 
+                    src="https://images.unsplash.com/photo-1672917187338-7f81ecac3d3f?q=80&w=1631&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+                    alt="Community Meeting" 
+                    className="relative z-10 rounded-2xl shadow-lg w-full object-cover h-96"
+                  />
+               </div>
+               <div className="md:pl-10">
+                  <h2 className="text-3xl font-serif font-bold text-stone-900 mb-6">Kenali Organisasi Kami</h2>
+                  <p className="text-stone-600 mb-8 text-lg font-light leading-relaxed">
+                    Ketahui lebih lanjut mengenai struktur pentadbiran dan ahli jawatankuasa yang menerajui JPKK Hulu Chuchoh.
+                  </p>
+                  <Link 
+                    to="/structure" 
+                    className="text-jpkkRed font-bold hover:text-stone-900 transition-colors inline-flex items-center gap-2 border-b border-jpkkRed pb-1"
+                  >
+                    Lihat Carta Organisasi <ArrowRight size={18} />
+                  </Link>
+               </div>
+            </div>
+         </div>
+      </section>
 
       {/* CTA Section */}
       <div className="bg-jpkkRed">

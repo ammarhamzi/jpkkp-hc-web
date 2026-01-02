@@ -55,8 +55,8 @@ const Hero: React.FC = () => {
       <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
         <img
           className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full brightness-90"
-          src="https://picsum.photos/id/193/1600/900" 
-          alt="Pemandangan Kampung Hulu Chuchoh"
+          src="https://images.unsplash.com/photo-1568036410361-c115b973681c?q=80&w=1674&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="Pemandangan Malaysia"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-white via-white/20 to-transparent lg:via-transparent lg:from-white/0"></div>
       </div>

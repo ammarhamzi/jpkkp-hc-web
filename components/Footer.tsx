@@ -9,6 +9,7 @@ const Footer: React.FC = () => {
           
           {/* Column 1: Identity */}
           <div>
+            <img src="/img/hc-bg.png" alt="JPKKP Logo" className="h-24 mb-4" />
             <h3 className="text-xl font-serif font-bold text-white mb-4">JPKKP Hulu Chuchoh</h3>
             <p className="text-stone-400 text-sm leading-relaxed mb-4">
               Jawatankuasa Pembangunan dan Keselamatan Kampung Persekutuan (JPKKP). 

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
-import Logo from './Logo';
+
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,14 +21,14 @@ const Navbar: React.FC = () => {
           <div className="flex items-center">
             <NavLink to="/" className="flex-shrink-0 flex items-center gap-3 group">
               {/* Logo Component */}
-              <div className="w-12 h-12 rounded-full overflow-hidden flex items-center justify-center bg-stone-50 border border-stone-200 shadow-sm">
-                 <Logo className="w-full h-full text-jpkkRed" />
+              <div className="w-12 h-12 rounded-full border-2 border-stone-100 shadow-sm flex items-center justify-center overflow-hidden bg-white">
+                <img src="/img/hc-logo.png" alt="JPKKP Logo" className="w-full h-full object-contain scale-125" />
               </div>
               <div className="flex flex-col">
-                <span className="font-serif font-bold text-jpkkRed text-2xl leading-tight tracking-wide">
+                <span className="font-serif font-bold text-jpkkRed text-xl md:text-2xl leading-tight tracking-wide">
                   JPKKP
                 </span>
-                <span className="font-sans text-xs font-bold text-stone-600 tracking-widest uppercase">
+                <span className="font-sans text-[10px] md:text-xs font-bold text-stone-600 tracking-widest uppercase">
                   Hulu Chuchoh
                 </span>
               </div>

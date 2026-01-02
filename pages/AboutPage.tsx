@@ -60,7 +60,7 @@ const AboutPage: React.FC = () => {
           <div className="relative sticky top-24">
              <div className="absolute top-4 left-4 w-full h-full bg-jpkkRed/10 rounded-lg transform translate-x-4 translate-y-4 -z-10"></div>
             <img 
-              src="https://images.pexels.com/photos/22804/pexels-photo.jpg?cs=srgb&dl=pexels-umaraffan499-22804.jpg&fm=jpg" 
+              src="https://images.unsplash.com/photo-1756130403367-3878c90c9203?q=80&w=1744&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
               alt="Mesyuarat JPKKP" 
               className="rounded-lg shadow-xl w-full object-cover h-[650px]"
             />
