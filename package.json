@@ -9,11 +9,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@netlify/functions": "^5.1.2",
+    "@sanity/client": "^7.14.0",
+    "@sanity/image-url": "^2.0.2",
+    "lucide-react": "0.344.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-router-dom": "6.22.3",
-    "lucide-react": "0.344.0",
-    "react-helmet-async": "2.0.4"
+    "react-helmet-async": "2.0.4",
+    "react-router-dom": "6.22.3"
   },
   "devDependencies": {
     "@types/node": "^22.14.0",

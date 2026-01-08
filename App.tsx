@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import AboutPage from './pages/AboutPage';
 import Structure from './pages/Structure';
+import Activities from './pages/Activities';
 
 // Scroll to top helper
 const ScrollToTop = () => {
@@ -30,6 +31,7 @@ const App: React.FC = () => {
               <Route path="/" element={<Home />} />
               <Route path="/about" element={<AboutPage />} />
               <Route path="/structure" element={<Structure />} />
+              <Route path="/activities" element={<Activities />} />
               {/* Catch all - redirect to home */}
               <Route path="*" element={<Navigate to="/" replace />} />
             </Routes>

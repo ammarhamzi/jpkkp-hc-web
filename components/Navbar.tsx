@@ -12,6 +12,7 @@ const Navbar: React.FC = () => {
     { name: 'Utama', path: '/' },
     { name: 'Tentang Kami', path: '/about' },
     { name: 'Carta Organisasi', path: '/structure' },
+    { name: 'Aktiviti', path: '/activities' },
   ];
 
   return (
